@@ -6,14 +6,14 @@
       <img src="assets/alarma.png" alt="Home" class="img-fluid" style="width: 86px; height: 80px;">
     </div>
 
-    <div class="col-12" style="margin-bottom: 20px; margin-top: 20px;">
-      <label class="col-3" for="inputPassword" style="margin-right: 40px;">Hora:</label>
-      <input type="password" class="form-control col-4" id="inputPassword" style="width: 511px; height: 63px;">
+    <div class="col-12" style="margin-bottom: 20px; margin-top: 20px; margin-right: 100px;">
+      <label for="inputTime" style="margin-right: 100px; margin-left: 10px;">Hora:</label>
+      <input type="text" class="form-control col-4 text-center" id="inputTime" placeholder="20:00 P.M" style="width: 511px; height: 63px; font-size: 48px; font-family: 'Inter-Thin', sans-serif;">
     </div>
 
-    <div class="form-group col-12" style="margin-bottom: 20px;">
-      <label for="seleccion" class="col-3" style="margin-right: 40px;">Medicamento:</label>
-      <select class="form-control col-4" id="seleccion" name="seleccion"  style="background-color: #A3CFBB; width: 263px; color:#146C43; font-size: 20px; font-family: 'Inter-Bold', sans-serif;">
+    <div class="form-group col-12" style="margin-bottom: 20px; margin-right: 440px;">
+      <label for="seleccion" style="margin-right: 200px; margin-left: 10px;">Medicamento:</label>
+      <select class="form-control" id="seleccion" name="seleccion"  style="background-color: #A3CFBB; width: 263px; color:#146C43; font-size: 20px; font-family: 'Inter-Bold', sans-serif;">
         <option value="opcion1">Amoxicilina</option>
         <option value="opcion2">Esomeprazol</option>
         <option value="opcion3">Cefalexina</option>
@@ -22,11 +22,12 @@
 
 
     <div class="col-12" style="margin-bottom: 20px;">
-      <label class="col-6" for="inputText" style="margin-right: 40px;">Frecuencia:</label>
-      <p class="col-6">¿Cuántas veces al día se debe tomar el medicamento?</p>
-      <input type="text" class="form-control col-4" id="inputText" style="width: 129px; height: 63px;"><p>veces al día</p>
-      <p>¿Cada cuántas horas se debe tomar el medicamento?</p>
-      <p>Cada</p><input type="text" class="form-control col-4" id="inputPassword" style="width: 129px; height: 63px;"><p>horas</p>
+      <label for="inputText" style="margin-right: 40px;">Frecuencia:</label>
+      <div class="d-block">
+      <p>¿Cuántas veces al día se debe tomar el medicamento?</p><br>
+      <input type="text" class="form-control col-4 text-center" id="inputText" style="width: 129px; height: 63px; font-size: 48px; font-family: 'Inter-Thin', sans-serif;"><p>veces al día</p>
+      <br><p>¿Cada cuántas horas se debe tomar el medicamento?</p><br><p>Cada</p><input type="text" class="form-control col-4" id="inputPassword" style="width: 129px; height: 63px; font-size: 48px; font-family: 'Inter-Thin', sans-serif;"><p>horas</p>
+      </div>
     </div>
 
     <div class="col-12" style="margin-bottom: 10px;">
