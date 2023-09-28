@@ -1,0 +1,43 @@
+<app-header></app-header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2 style="margin-right: 10px;">Mi salud <br>Crear cita</h2><br>
+      <img src="assets/salud.png" alt="Salud" class="img-fluid" style="width: 100px; height: 100px;">
+    </div>
+
+    <div class="col-12" style="margin-bottom: 20px; margin-top: 20px;">
+      <label class="col-3" for="inputHour" style="margin-right: 40px;">Hora:</label>
+      <input type="text" class="form-control col-4 text-center" id="inputHour" placeholder="20:00" style="width: 511px; height: 63px; font-size: 48px; font-family: 'Inter-Thin', sans-serif;">
+    </div>
+
+    <div class="col-12" style="margin-bottom: 20px; margin-top: 20px;">
+      <label class="col-3" for="inputDate" style="margin-right: 40px;">Fecha:</label>
+      <input type="text" class="form-control col-4 text-center" id="inputDate" placeholder="Día/Mes/Año" style="width: 511px; height: 63px; font-size: 48px; font-family: 'Inter-Thin', sans-serif;">
+    </div>
+
+    <div class="col-12" style="margin-bottom: 20px; margin-top: 20px;">
+      <label class="col-3" for="inputPlace" style="margin-right: 40px;">Lugar:</label>
+      <input type="text" class="form-control col-4 text-center" id="inputPlace" placeholder="Ingresar lugar" style="width: 511px; height: 63px; font-size: 48px; font-family: 'Inter-Thin', sans-serif;">
+    </div>
+
+    <div class="form-group col-12" style="margin-bottom: 60px; margin-top: 20px;">
+      <label class="col-3" for="seleccion" style="margin-right: 40px; margin-left: 20px;">Tipo de cita:</label>
+      <select class="form-control col-4" id="seleccion" name="seleccion"  style="background-color: #A3CFBB; width: 263px; color:#146C43; font-size: 20px; font-family: 'Inter-Bold', sans-serif; border: none;">
+        <option value="opcion1">Seleccione una opción:</option>
+        <option value="opcion1">Medicina general</option>
+        <option value="opcion2">Internista</option>
+        <option value="opcion3">Especialista</option>
+      </select>
+    </div>
+
+    <div class="col-12" style="margin-bottom: 10px;">
+      <button type="button" class="btn" style="background-color: #146C43; width: 624px; height: 77px;" routerLink="/creadacita">Guardar cita médica</button>
+    </div>
+
+  </div>
+</div>
+
+<div class="btn-link">
+  <a   class="btn-link" role="button" routerLink=''>Regresar</a>
+</div>

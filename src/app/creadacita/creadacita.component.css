@@ -1,0 +1,103 @@
+div {
+  background: #D1E7DD;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('/assets/fonts/Inter-Bold.ttf') format('truetype');
+}
+
+h2{
+  font-size: 54px;
+  color: #146C43;
+  font-family: 'Inter-Bold', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('/assets/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+label{
+  font-size: 44px;
+  color: #146C43;
+  font-family: 'Inter-Regular', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+@font-face {
+  font-family: 'Inter-Light';
+  src: url('/assets/fonts/Inter-Light.ttf') format('truetype');
+}
+
+.btn-link {
+  font-size: 40px;
+  color: #75B798;
+  font-family: 'Inter-Light', sans-serif;
+  text-decoration: underline;
+  border: none;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: none !important;
+}
+
+button{
+  color: #D1E7DD;
+  transition: none !important;
+  font-family: 'Inter-Regular', sans-serif;
+  font-size: 48px;
+  width: 624px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  color: #D1E7DD;
+
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('/assets/fonts/Inter-SemiBoldttf') format('truetype');
+}
+
+p{
+  font-family: 'Inter-SemiBold',sans-serif;
+  font-size: 40px;
+  color: #0F5132;
+  line-height: 1;
+}
+
+.card{
+  display: flex;
+  background-color: #A3CFBB;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body{
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body button{
+  margin-left: 218px;
+}

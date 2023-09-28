@@ -1,0 +1,26 @@
+div {
+  background: #D1E7DD;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'InriaSans-Regular';
+  src: url('/assets/fonts/InriaSans-Regular.ttf') format('truetype');
+}
+
+nav{
+  font-family: 'InriaSans-Regular', sans-serif;
+  font-size: 32px;
+  height: 107px;
+  display: flex;
+  align-items: center;
+  color: #0F5132;
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('/assets/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+
+

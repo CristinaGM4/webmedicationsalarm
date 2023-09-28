@@ -1,0 +1,39 @@
+<app-header></app-header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <h2 style="margin-right: 10px;">Crear alarma</h2>
+      <img src="assets/alarma.png" alt="Home" class="img-fluid" style="width: 86px; height: 80px;">
+    </div>
+
+    <div class="form-group col-12" style="margin-bottom: 60px; margin-top: 80px;">
+      <label for="seleccion" style="margin-right: 300px; margin-left: 60px;">Tipo de alarma:</label>
+      <select class="form-control col-6" id="seleccion" name="seleccion"  style="background-color: #A3CFBB; width: 263px; color:#146C43; font-size: 20px; font-family: 'Inter-Bold', sans-serif;">
+        <option value="opcion1">Seleccione una:</option>
+        <option value="opcion1">Vibración</option>
+        <option value="opcion2">Con sonido</option>
+        <option value="opcion3">Con sonido y vibración</option>
+      </select>
+    </div>
+
+    <div class="form-check form-switch col-12" style="margin-bottom: 60px;">
+      <label class="form-check-label" for="flexSwitchCheckDefault" style="margin-right: 90px;">Notificar con el celular apagado:</label>
+      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" style="width: 113px; height: 32px;">
+    </div>
+
+    <div class="form-check form-switch col-12" style="margin-bottom: 60px;">
+      <label class="form-check-label" for="flexSwitchCheckDefault" style="margin-right: 70px;">Notificar al WhatsApp:</label>
+      <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault" style="width: 113px; height: 32px; margin-left: 200px;">
+    </div>
+
+    <div class="col-12" style="margin-bottom: 10px;">
+      <button type="button" class="btn" style="background-color: #146C43; width: 497px; height: 77px;" routerLink="/creadaalarma">Guardar alarma</button>
+    </div>
+
+  </div>
+</div>
+
+<div class="btn-link">
+  <a   class="btn-link" role="button" routerLink="/alarma">Regresar</a>
+</div>
+

@@ -1,0 +1,44 @@
+<app-header></app-header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <h2 style="margin-right: 10px;">Crear alarma</h2>
+      <img src="assets/alarma.png" alt="Home" class="img-fluid" style="width: 86px; height: 80px;">
+    </div>
+
+    <div class="col-12" style="margin-bottom: 20px; margin-top: 20px;">
+      <label class="col-3" for="inputPassword" style="margin-right: 40px;">Hora:</label>
+      <input type="password" class="form-control col-4" id="inputPassword" style="width: 511px; height: 63px;">
+    </div>
+
+    <div class="form-group col-12" style="margin-bottom: 20px;">
+      <label for="seleccion" class="col-3" style="margin-right: 40px;">Medicamento:</label>
+      <select class="form-control col-4" id="seleccion" name="seleccion"  style="background-color: #A3CFBB; width: 263px; color:#146C43; font-size: 20px; font-family: 'Inter-Bold', sans-serif;">
+        <option value="opcion1">Amoxicilina</option>
+        <option value="opcion2">Esomeprazol</option>
+        <option value="opcion3">Cefalexina</option>
+      </select>
+    </div>
+
+
+    <div class="col-12" style="margin-bottom: 20px;">
+      <label class="col-6" for="inputText" style="margin-right: 40px;">Frecuencia:</label>
+      <p class="col-6">¿Cuántas veces al día se debe tomar el medicamento?</p>
+      <input type="text" class="form-control col-4" id="inputText" style="width: 129px; height: 63px;"><p>veces al día</p>
+      <p>¿Cada cuántas horas se debe tomar el medicamento?</p>
+      <p>Cada</p><input type="text" class="form-control col-4" id="inputPassword" style="width: 129px; height: 63px;"><p>horas</p>
+    </div>
+
+    <div class="col-12" style="margin-bottom: 10px;">
+      <button type="button" class="btn" style="background-color: #146C43;" routerLink="/notificacion">Tipo de notificación</button>
+    </div>
+
+  </div>
+</div>
+
+<div class="btn-link">
+  <a   class="btn-link" role="button" routerLink=''>Regresar</a>
+</div>
+
+
+

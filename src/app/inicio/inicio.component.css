@@ -1,0 +1,54 @@
+div {
+  background: #D1E7DD;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: 'InriaSans-Regular';
+  src: url('/assets/fonts/InriaSans-Regular.ttf') format('truetype');
+}
+
+h2{
+  font-size: 48px;
+  color: #146C43;
+  font-family: 'InriaSans-Regular', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@font-face {
+  font-family: 'InriaSans-Bold';
+  src: url('/assets/fonts/InriaSans-Bold.ttf') format('truetype');
+}
+
+h1{
+  font-size: 64px;
+  color: #0A3622;
+  font-family: 'InriaSans-Bold', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('/assets/fonts/Inter-Medium.ttf') format('truetype');
+}
+
+p{
+  font-size: 40px;
+  color: #146C43;
+  font-family: 'Inter-Medium', sans-serif;
+  line-height: 1;
+  text-align: center;
+}
+
+img{
+  width: 315px;
+  height: 315px;
+}

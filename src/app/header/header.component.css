@@ -1,0 +1,18 @@
+div {
+  background: #D1E7DD;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: 'InriaSans-Bold';
+  src: url('/assets/fonts/InriaSans-Bold.ttf') format('truetype');
+}
+
+h1{
+  font-size: 64px;
+  color: #0A3622;
+  font-family: 'InriaSans-Bold', sans-serif;
+}
